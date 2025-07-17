@@ -36,7 +36,7 @@ body {
   background-color: white;
 }
 
-/* Image de Dr. Borlaug (centrée et responsive) */
+/* Image de Dr. Borlaug */
 .bio-image {
   display: block;
   max-width: 60%;
@@ -44,7 +44,7 @@ body {
   margin: 0 auto;
 }
 
-/* Légende de l'image (texte centré et stylisé) */
+/* Légende de l'image */
 .image-caption {
   font-size: 0.7rem;
   color: #555;
@@ -67,7 +67,7 @@ body {
   padding: 3rem 0;
 }
 
-/* Liste chronologique (centrée et lisible) */
+/* Liste chronologique */
 .timeline {
   list-style-type: disc;
   max-width: 600px;
@@ -82,7 +82,7 @@ body {
   margin-bottom: 0.75rem;
 }
 
-/* Citation en italique, bien encadrée */
+/* Citation en italique */
 .quote {
   font-style: italic;
   max-width: 600px;
