@@ -1,3 +1,117 @@
+/* style.css */
 
+/* Police lisible et mise en page générale */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
 
+/* En-tête */
+header {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
 
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header h2 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+/* Section principale */
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image et légende */
+figure {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+/* Titre de section */
+section h2 {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+  color: #2c3e50;
+}
+
+/* Liste chronologique */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.8rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+ul li::before {
+  content: "⏳";
+  position: absolute;
+  left: 0;
+  color: #3498db;
+}
+
+/* Citation */
+aside blockquote {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-left: 5px solid #2980b9;
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+aside blockquote em {
+  display: block;
+  margin-top: 0.5rem;
+  text-align: right;
+}
+
+/* Pied de page */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
